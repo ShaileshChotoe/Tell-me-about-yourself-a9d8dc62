@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <form class="form" action="index.html" method="post">
+      <label for="naam">Naam</label>
+      <input type="text" name="naam" value="">
+      <label for="email">E-mail</label>
+      <input type="text" name="email" value="">
+      <label for="tel">Telefoonnummer</label>
+      <input type="text" name="text" value="">
+      <label for="pass">Wachtwoord</label>
+      <input type="password" name="pass" value="">
+      <label for="secret">Geheim</label>
+      <textarea name="secret" rows="8" cols="80"></textarea>
+      <label for="prov">Provincie</label>
+      <select class="prov" name="provv">
+        <option value="Noord-Holland">Noord_holland</option>
+        <option value="zuid">Zuid_holland</option>
+        <option value="derest-Holland">De rest</option>
+      </select>
+      <label for="eten">Houd je van eten?</label>
+      <div class="grid">
+        <input class="option" type="radio" name="op1" value="">
+           <label for="op1">Ja</label>
+           <input class="option" type="radio"name="op1">
+              <label for="op1">Ja</label>
+      </div>
+      <label for="eten">Favorite dagen</label>
+      <div class="grid2">
+        <label for="op1">Vrijdag</label>
+        <input type="checkbox" name="op1" value="">
+        <label for="op1">Zaterdag</label>
+           <input type="checkbox"name="op1">
+           <label for="op1">Zondag</label>
+            <input type="checkbox" name="" value="">
+      </div>
+      <input id="submit" type="submit" name="submit" value="Verstuur">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
